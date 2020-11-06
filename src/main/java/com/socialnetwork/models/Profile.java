@@ -32,5 +32,6 @@ public class Profile {
     @Column(nullable = false, length = 2)
     private Integer age;
 
-//    profile picture
+    @Column(nullable = false, length = 300)
+    private String imageUrl;
 }
